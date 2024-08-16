@@ -1,0 +1,19 @@
+@media only screen and (max-width: 800px) {
+  .imageContainer {
+    margin-top: 280px;
+  }
+  .imageContent {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .imageContainer {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .imageContainer {
+    margin-top: 400px;
+  }
+}

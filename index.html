@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olympic Windows Pvt. Ltd.</title>
+
+    <!-- link for website icon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/OlympicLogo/OLYMPIC_WINDOWS_LOGO-removebg-preview.png"
+    />
+
+    <!-- BootStrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- NavBar section -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top ps-2 pe-2 md-gap-2"
+        data-bs-theme="dark"
+        style="background-color: #010f36; color: white"
+      >
+        <div class="container-fluid" style="color: white">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./navLogo/fuck1.png"
+              alt="Company Logo"
+              style="width: 200px"
+          /></a>
+          <button
+            style="color: white"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-2 gap-2 navContent">
+              <li class="nav-item hoverEffect">
+                <a
+                  class="nav-link active p-2"
+                  style="color: white"
+                  aria-current="page"
+                  href="/index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item hoverEffect">
+                <a
+                  class="nav-link p-2"
+                  style="color: white"
+                  href="/aboutUs.html"
+                  >ABOUT US</a
+                >
+              </li>
+
+              <li class="nav-item hoverEffect">
+                <a
+                  class="nav-link p-2"
+                  style="color: white"
+                  href="/facility.html"
+                  >FACILITY</a
+                >
+              </li>
+
+              <li class="nav-item hoverEffect dropdown">
+                <a
+                  class="nav-link dropdown-toggle p-2"
+                  style="color: white"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-disabled="true"
+                  >PRODUCTS</a
+                >
+                <ul class="dropdown-menu" style="background-color: #e3f2fd">
+                  <li>
+                    <a class="dropdown-item dropdownItems" href="#">Action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item dropdownItems" href="#"
+                      >Another action</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item dropdownItems" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item dropdownItems" href="#"
+                      >Another action</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item hoverEffect">
+                <!-- Contact trigger modal -->
+                <a
+                  class="nav-link p-2 btn"
+                  style="
+                    color: white;
+                    display: flex;
+                    justify-content: flex-start;
+                  "
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >CONTACT US</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Slider section -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel carousel-light slide slideSection"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-flex" data-bs-interval="4000">
+          <img
+            src="./Home/sliders/desktop-wallpaper-32-most-beautiful-dubai-dubai.jpg"
+            class="w-100"
+            alt="slideImg1"
+            style="max-height: 600px"
+          />
+          <div class="carousel-caption d-flex-col slider">
+            <h1 class="md-fs-1 fw-bolder slideContent">OLYMPIC WINDOWS</h1>
+            <h4 class="fw-medium slideSubContent">
+              We as a company stands tall among the rest, Olympic Windows
+              performance is based on 5 ‘P’ Rule : Prior Planning Prevent Poor
+              Performance that enable us to deliver better products and
+              services.
+            </h4>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            src="./Home/sliders/download.jpeg"
+            class="d-block w-100"
+            alt="slideImg2"
+            style="max-height: 600px"
+          />
+          <div class="carousel-caption d-md-block slider">
+            <h1 class="md-fs-1 fw-bolder slideContent">
+              SETTING NEW STANDARDS
+            </h1>
+            <h4 class="md-fs-3 fw-medium slideSubContent">
+              We are continuously thriving to set new standards for the
+              aluminium windows among our competitors. Our windows are
+              delivering the best results even after experiencing the rough
+              weather conditions.
+            </h4>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            src="./Home/sliders/glo-v-a-design-museum-dundee-scotland_16-9.webp"
+            class="d-block w-100"
+            alt="slideImg3"
+            style="max-height: 600px"
+          />
+          <div class="carousel-caption d-md-block slider">
+            <h1 class="md-fs-1 fw-bolder slideContent">
+              DESIGN DEVELOP DELIVER
+            </h1>
+            <h4 class="md-fs-3 fw-medium slideSubContent">
+              We design our products based on our client’s requirements, develop
+              them with utmost perfection and deliver the best quality result
+              ensuring that there is no error in installation as well.
+            </h4>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Content section -->
+    <div class="content">
+      <h2 class="heading d-flex justify-content-center">efmkmefwmf</h2>
+      <p class="justify-content-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+        praesentium tenetur nisi vel necessitatibus laborum saepe molestiae
+        voluptates, error quod, amet minus dolore laboriosam tempora deserunt?
+        Cupiditate ea doloremque velit?
+      </p>
+    </div>
+
+    <!-- Card section -->
+    <div class="cardSection">
+      <section class="container1 we_offer">
+        <div class="we_offer_card card">
+          <img
+            src="./Home/navigator/image2.jpeg"
+            class="card-img we_offer_content"
+            alt="..."
+          />
+          <div class="card-img-overlay">
+            <a
+              href="#"
+              class="card-img btn text-light btn-lg stretched-link fs-2"
+              data-bs-toggle="button"
+              >SOMEWHERE</a
+            >
+          </div>
+        </div>
+        <div class="we_offer_card card">
+          <img
+            src="./Home/navigator/image2.jpeg"
+            class="card-img we_offer_content"
+            alt="..."
+          />
+          <div class="card-img-overlay">
+            <a
+              href="#"
+              class="card-img btn text-light btn-lg stretched-link fs-2"
+              data-bs-toggle="button"
+              >SOMEWHERE</a
+            >
+          </div>
+        </div>
+        <div class="we_offer_card card">
+          <img
+            src="./Home/navigator/image2.jpeg"
+            class="card-img we_offer_content"
+            alt="..."
+          />
+          <div class="card-img-overlay">
+            <a
+              href="#"
+              class="card-img btn text-light btn-lg stretched-link fs-2"
+              data-bs-toggle="button"
+              >SOMEWHERE</a
+            >
+          </div>
+        </div>
+        <div class="we_offer_card card">
+          <img
+            src="./Home/navigator/image2.jpeg"
+            class="card-img we_offer_content"
+            alt="..."
+          />
+          <div class="card-img-overlay">
+            <a
+              href="#"
+              class="card-img btn text-light btn-lg stretched-link fs-2"
+              data-bs-toggle="button"
+              >SOMEWHERE</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Work Section -->
+    <section class="content" style="background-color: #ffffff">
+      <h1 style="color: #010f36; margin-bottom: 20px">
+        <center>COMPLETED WORK</center>
+      </h1>
+
+      <h6 style="color: #010f36">
+        <center>
+          Peek through our windows to check our completed projects and unique
+          solutions we have developed over the years.
+        </center>
+      </h6>
+      <br />
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div
+          class="accordion-item border-primary-subtle border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              <i
+                class="fa-solid fa-1 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-primary-subtle border-top-0 border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              <i
+                class="fa-solid fa-2 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-primary-subtle border-top-0 border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              <i
+                class="fa-solid fa-3 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-primary-subtle border-top-0 border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              <i
+                class="fa-solid fa-4 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-primary-subtle border-top-0 border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              <i
+                class="fa-solid fa-5 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="accordion-item border-primary-subtle border-top-0 border-start-0 border-end-0"
+        >
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseSix"
+            >
+              <i
+                class="fa-solid fa-6 fa-beat-fade fa-xl"
+                style="margin-right: 20px"
+              ></i>
+              LODHA AMARA
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSix"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body" style="padding: 0; border: none">
+              <img
+                src="./Home/sites/Screenshot 2024-08-12 150937.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <!--Contact Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form onsubmit="sendMail(); reset(); return false">
+            <div class="modal-body">
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <label for="floatingInput">Your Name</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                    required
+                  />
+                  <label for="floatingInput">Email address</label>
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="form-floating mb-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Your Phone"
+                    required
+                  />
+                  <label for="floatingInput">Your Phone</label>
+                </div>
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-text">Message</span>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  aria-label="Message"
+                  placeholder="Exceptional"
+                ></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- women empowerment section -->
+    <div class="card text-bg-light">
+      <img
+        src="./Home/Screenshot 2024-08-14 114750.png"
+        class="card-img"
+        style="opacity: 0.4; max-height: 700px"
+        alt="women empowerment img"
+      />
+      <div class="card-img-overlay">
+        <center>
+          <h5 class="card-title display-4 fw-medium">Women Empowerment</h5>
+
+          <p class="card-text footer">
+            We are continuously striving to give equal opportunities to the
+            women. We believe that educating and liberating the mothers of this
+            society is the way to build the next generation stronger and
+            sustainable.
+          </p>
+        </center>
+      </div>
+    </div>
+
+    <!-- Sponsors Logo Section -->
+    <div class="logoGrid">
+      <img class="grid-item" src="./Home/logos/Picture1.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture2.jpg" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture3.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture4.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture5.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture6.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture7.jpg" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture8.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture9.png" alt="" />
+      <img class="grid-item" src="./Home/logos/Picture10.png" alt="" />
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer" style="background-color: #010f36; color: white">
+      <div class="footer_section1">
+        <img src="images/logo.png" alt="logo" />
+        <div class="section1_buttonContainer">
+          <button style="color: #ffffff">
+            <img
+              src="https://flagcdn.com/w40/in.png"
+              alt="Indian Flag"
+              style="width: 15px"
+            />
+            India
+          </button>
+          <button style="color: #ffffff">
+            <i class="fa fa-globe"></i>English
+          </button>
+        </div>
+      </div>
+      <div class="navigation_container">
+        <div class="link_container">
+          <h5>ABOUT ZOMATO</h5>
+          <a class="footer_link" href="#">Who we are</a>
+          <a class="footer_link" href="#">Blogs</a>
+          <a class="footer_link" href="#">Work with us</a>
+          <a class="footer_link" href="#">Investor Relations</a>
+          <a class="footer_link" href="#">Report Fraud</a>
+          <a class="footer_link" href="#">Contact Us</a>
+        </div>
+
+        <div class="link_container">
+          <h5>ZOMAVERSE</h5>
+          <a class="footer_link" href="#">Zomato</a>
+          <a class="footer_link" href="#">Blinkit</a>
+          <a class="footer_link" href="#">Feeding India</a>
+          <a class="footer_link" href="#">Hyperpure</a>
+          <a class="footer_link" href="#">Zomaland</a>
+        </div>
+
+        <div class="link_container">
+          <h5>FOR RESTAURANTS</h5>
+          <a class="footer_link" href="#">Partner With Us</a>
+          <a class="footer_link" href="#">Apps for You</a>
+          <br />
+          <h5>FOR ENTERPRISES</h5>
+          <a class="footer_link" href="#">Zomato For Work</a>
+        </div>
+
+        <div class="link_container">
+          <h5>LEARN MORE</h5>
+          <a class="footer_link" href="#">Privacy</a>
+          <a class="footer_link" href="#">Security</a>
+          <a class="footer_link" href="#">Terms</a>
+          <a class="footer_link" href="#">Sitemap</a>
+        </div>
+
+        <div class="link_container">
+          <h5>Social Media</h5>
+          <div class="section_links_container">
+            <button style="border: 1px solid white">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </button>
+            <button style="border: 1px solid white">
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button style="border: 1px solid white">
+              <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button style="border: 1px solid white">
+              <i class="fa-brands fa-facebook"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="disclamer">
+        By continuing past this page, you agree to our Terms of Service, Cookie
+        Policy, Privacy Policy and Content Policies. All trademarks are
+        properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+        rights reserved.
+      </div>
+    </footer>
+
+    <!-- Bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SMPT script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function sendMail() {
+        // Email.send({
+        //   Host: "smtp.elasticemail.com",
+        //   Username: "jay.unofficial002@gmail.com",
+        //   Password: "Temporary###",
+        //   To: "jay.unofficial002@gmail.com",
+        //   From: document.getElementById("email").value,
+        //   Subject: "New Enquiry",
+        //   Body:
+        //     "Name: " +
+        //     document.getElementById("name").value +
+        //     "<br> Email: " +
+        //     document.getElementById("email").value +
+        //     "<br> Phone: " +
+        //     document.getElementById("phone").value +
+        //     "<br> Message: " +
+        //     document.getElementById("message").value,
+        // }).then((message) => alert("Message Sent Succefully"));
+
+        Email.send({
+          SecureToken: "f1c1adbd-1d13-475f-b1d2-bf17c8d20117",
+
+          To: "jay.unofficial002@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Enquiry",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Phone: " +
+            document.getElementById("phone").value +
+            "<br> Message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert(message));
+      }
+    </script>
+  </body>
+</html>

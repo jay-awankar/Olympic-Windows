@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Navbar styling */
+.hoverEffect {
+  border: none;
+  transition: all 0.5s;
+  z-index: 1;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  margin-right: 30px;
+}
+
+.hoverEffect:hover {
+  border: 1p0 solid #ffffff4f;
+  box-shadow: 0px 10px 1pc 1px #ffffff46;
+}
+
+.navContent {
+  margin-left: 500px;
+}
+
+.dropdownItems {
+  background-color: #e3f2fd;
+  color: #010f36;
+}
+
+.dropdownItems:hover {
+  background-color: #010f36;
+  color: white;
+}
+
+/* Slider content */
+.slideContent,
+.slideSubContent {
+  filter: drop-shadow(1px 1px 5px #000);
+}
+
+/* content styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 250px 100px 250px;
+  background-color: #e3f2fd;
+  color: black;
+}
+
+/* card styling */
+.cardSection {
+  background-color: #e3f2fd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container1 {
+  margin: auto;
+  margin-top: -70px;
+  width: 90%;
+}
+
+.we_offer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.we_offer_card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  transition: all 1s ease;
+  width: 38%;
+  box-shadow: 0px 5px 1pc #010f36;
+}
+
+.we_offer_card:hover {
+  transform: scale(1.1);
+}
+
+.we_offer_card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* highest - 1200 */
+@media only screen and (min-width: 1200px) {
+  /* .slider {
+    margin-bottom: 250px !important;
+  } */
+  .slideContent {
+    font-size: 70px;
+  }
+  /* .slideSubContent {
+    font-size: 50px;
+  } */
+}
+
+/* highest - 900 */
+@media only screen and (min-width: 900px) {
+  .slider {
+    margin-bottom: 100px;
+  }
+  .slideContent {
+    font-size: 50px;
+  }
+  .slideSubContent {
+    font-size: 20px;
+  }
+}
+
+/* 1400 - 0 */
+@media only screen and (max-width: 1400px) {
+  .navContent {
+    margin-left: 0px;
+  }
+}
+
+/* 1200 - 0 */
+@media only screen and (max-width: 1200px) {
+  .hoverEffect {
+    margin-right: 0px;
+  }
+  /* .slideSubContent {
+    font-size: 100px;
+  } */
+  .content {
+    padding: 30px 100px 50px 100px;
+  }
+  .we_offer_card {
+    width: 90%;
+  }
+}
+
+/* 600 - 0 */
+@media only screen and (max-width: 600px) {
+  .slideSection {
+    padding-top: 80px;
+  }
+
+  .content {
+    padding: 20px 30px 20px 30px;
+  }
+  .we_offer_card {
+    width: 100%;
+  }
+  .container1 {
+    margin-top: 0px;
+  }
+}
+
+.footer {
+  padding: 20px 50px 10px 50px;
+  width: 100%;
+  height: 100%;
+  /* background-image: url(/OLYMPIC_WINDOWS_LOGO-removebg-preview.png); */
+}
+
+.footer_section1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.footer_section1 img {
+  width: 130px;
+}
+
+.section1_buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.section1_buttonContainer button {
+  padding: 5px;
+  width: 90px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.navigation_container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.link_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link_container h5 {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-size: 12.5px;
+  font-weight: 300;
+}
+
+.footer_link:hover {
+  color: black;
+}
+
+.section_links_container button {
+  background-color: black;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+.section_links_container button i {
+  /* color: white; */
+  font-size: 13px;
+  display: flex;
+  /* horizontal / x-axis */
+  align-items: center;
+  /* Vertical / y-axis */
+  justify-content: center;
+}
+
+.footer_section_logos {
+  width: 100%;
+}
+
+.disclamer {
+  width: 95%;
+  color: white;
+  margin: auto;
+  border-top: 1px solid white;
+  padding-top: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding: 30px 150px 10px 150px;
+  }
+  .logoGrid {
+    padding: 20px 150px 20px 150px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .logoGrid {
+    padding: 20px 80px 20px 80px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navigation_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .slideContent {
+    margin-bottom: 50px;
+  }
+  .slideSubContent {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .logoGrid {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navigation_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logoGrid {
+    padding: 20px 50px 20px 50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navigation_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.logoGrid {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  /* grid-template-columns: auto auto auto auto auto; */
+
+  background-color: #e3f2fd;
+  width: auto;
+}
+
+.grid-item {
+  width: 100px;
+}

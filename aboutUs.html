@@ -30,8 +30,8 @@
     />
 
     <!-- css link -->
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/aboutUs.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="aboutUs.css" />
   </head>
   <body>
     <header>
@@ -44,7 +44,7 @@
         <div class="container-fluid" style="color: white">
           <a class="navbar-brand" href="#"
             ><img
-              src="./navLogo/fuck1.png"
+              src="./navLogo/navLogo.png"
               alt="Company Logo"
               style="width: 200px"
           /></a>
@@ -67,15 +67,12 @@
                   class="nav-link active p-2"
                   style="color: white"
                   aria-current="page"
-                  href="/index.html"
+                  href="index.html"
                   >HOME</a
                 >
               </li>
               <li class="nav-item hoverEffect">
-                <a
-                  class="nav-link p-2"
-                  style="color: white"
-                  href="/aboutUs.html"
+                <a class="nav-link p-2" style="color: white" href="aboutUs.html"
                   >ABOUT US</a
                 >
               </li>
@@ -84,7 +81,7 @@
                 <a
                   class="nav-link p-2"
                   style="color: white"
-                  href="/facility.html"
+                  href="facility.html"
                   >FACILITY</a
                 >
               </li>
@@ -100,21 +97,31 @@
                 >
                 <ul class="dropdown-menu" style="background-color: #e3f2fd">
                   <li>
-                    <a class="dropdown-item dropdownItems" href="#">Action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item dropdownItems" href="#"
-                      >Another action</a
+                    <a
+                      class="dropdown-item dropdownItems"
+                      href="./Products/product1.html"
+                      >product1</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item dropdownItems" href="#"
-                      >Something else here</a
+                    <a
+                      class="dropdown-item dropdownItems"
+                      href="./Products/product2.html"
+                      >product2</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item dropdownItems" href="#"
-                      >Another action</a
+                    <a
+                      class="dropdown-item dropdownItems"
+                      href="./Products/product3.html"
+                      >product3</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item dropdownItems"
+                      href="./Products/product4.html"
+                      >product4</a
                     >
                   </li>
                 </ul>
@@ -132,15 +139,6 @@
                   data-bs-target="#exampleModal"
                   >CONTACT US</a
                 >
-                <!-- Button trigger modal -->
-                <!-- <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Launch demo modal
-                </button> -->
               </li>
             </ul>
           </div>
@@ -151,7 +149,7 @@
     <!-- Slide -->
     <div class="card text-bg-light">
       <img
-        src="/AboutUs/slide/manufacture.png"
+        src="./AboutUs/slide/manufacture.png"
         class="card-img"
         style="opacity: 0.4; max-height: 600px; min-height: 400px"
         alt="about us"
@@ -164,28 +162,29 @@
     </div>
 
     <!-- Content section -->
-    <section>
+    <section class="footer_1">
       <div class="footer text-center pt-5">
-        <h6>
+        <h5>
           Established in 2012, with a clear moto in mind to set new standards in
           the field. Our aim is to design our windows with utmost efficiency as
           per our clients demand. Here in our company we make sure that our each
           and every product is able to survive the rain heat and cold of the
           Indian weather. Our windows are designed so they are drainage able,
           damp proof and properly sealed.
-        </h6>
-        <h6>
+        </h5>
+        <h5>
           Since Our Relocation And increased capacity, Olympic windows have been
           invited by popular demand to tender various upcoming projects in the
           Mumbai, Pune and Bangalore.
-        </h6>
+        </h5>
+        <br /><br />
         <hr />
         <br />
-        <div class="card mb-3" style="width: 100%; border: none">
+        <div class="card mb-5" style="width: 100%; border: none">
           <div class="row g-0">
             <div class="col-md-4">
               <img
-                src="/AboutUs/content/certificate.png"
+                src="./AboutUs/content/certificate.png"
                 class="img-fluid rounded-start"
                 alt="certificate"
               />
@@ -205,8 +204,8 @@
           </div>
         </div>
         <hr />
-        <div class="card mb-3" style="width: 100%; border: none">
-          <div class="row g-0">
+        <div class="card mb-3 mt-5" style="width: 100%; border: none">
+          <div class="row g-0 officials_1">
             <div class="col-md-8">
               <div class="card-body">
                 <p class="card-text">
@@ -222,7 +221,7 @@
             </div>
             <div class="col-md-4">
               <img
-                src="/AboutUs/content/trophy.png"
+                src="./AboutUs/content/trophy.png"
                 class="img-fluid rounded-start"
                 alt="trophy"
                 style="max-width: 150px; filter: drop-shadow(1px 1px 10px #000)"
@@ -402,5 +401,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- SMPT script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- contact script -->
+    <script src="/script.js"></script>
   </body>
 </html>
